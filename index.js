@@ -20,5 +20,15 @@ const employes = [
 
 // const filterArray= employes.filter((emp)=> emp.End-emp.Start >=25)
 // console.log(filterArray);
-const filterArray = employes.filter(emp=>emp.Designation==='IT'   ).map(emp=>emp.Name)
+const filterArray = employes.filter(emp=>emp.Designation==='IT' && emp.End-emp.Start >=25  ).map(emp=>emp.Name)
 console.log(filterArray);
+
+
+const mu = [45,13,56,14,58,64,23,14,02,42]
+const newMu= mu.sort((a,b) => b-a)
+console.log(newMu);
+
+
+
+const newvalue = [45,13,56,14,58,]
+const newReduce = newvalue.reduce(myvalue , )
