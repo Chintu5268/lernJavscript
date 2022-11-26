@@ -55,10 +55,10 @@ const employes = [
 // console.log(mom)
 
 // =======================reduce=========================================
-const smallArray = [45,13,56,14,58,64,23,14,02,42];
+// const smallArray = [45,13,56,14,58,64,23,14,02,42];
 
-const accumulator = smallArray.reduce((age,sandesh) => {return age/sandesh})
-console.log(accumulator)
+// const accumulator = smallArray.reduce((age,sandesh) => {return age/sandesh})
+// console.log(accumulator)
 
-
+// smallArray.some()
 
