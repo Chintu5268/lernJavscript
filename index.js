@@ -1,15 +1,15 @@
-const employes = [
-  {id:121,Name:"Empl1",Designation:"IT",Start:1983, End:2015},
-  {id:122,Name:"Empl2",Designation:"Sell",Start:1985, End:2017},
-  {id:123,Name:"Empl3",Designation:"Design",Start:1988, End:2005},
-  {id:124,Name:"Empl4",Designation:"Tech",Start:1983, End:2005},
-  {id:125,Name:"Empl5",Designation:"IT",Start:1981, End:2015},
-  {id:126,Name:"Empl6",Designation:"Sell",Start:1983, End:2012},
-  {id:127,Name:"Empl7",Designation:"Design",Start:1993, End:2015},
-  {id:128,Name:"Empl8",Designation:"Tech",Start:1989, End:2005},
-  {id:129,Name:"Empl9",Designation:"IT",Start:1983, End:2005},
+// const employes = [
+//   {id:121,Name:"Empl1",Designation:"IT",Start:1983, End:2015},
+//   {id:122,Name:"Empl2",Designation:"Sell",Start:1985, End:2017},
+//   {id:123,Name:"Empl3",Designation:"Design",Start:1988, End:2005},
+//   {id:124,Name:"Empl4",Designation:"Tech",Start:1983, End:2005},
+//   {id:125,Name:"Empl5",Designation:"IT",Start:1981, End:2015},
+//   {id:126,Name:"Empl6",Designation:"Sell",Start:1983, End:2012},
+//   {id:127,Name:"Empl7",Designation:"Design",Start:1993, End:2015},
+//   {id:128,Name:"Empl8",Designation:"Tech",Start:1989, End:2005},
+//   {id:129,Name:"Empl9",Designation:"IT",Start:1983, End:2005},
 
-]
+// ]
 // for (let employe=0; employe < employes.length; employe++){
 //   console.log(employes[employe])
 // }
@@ -41,9 +41,9 @@ const employes = [
 //   let st = dt.getSeconds();
 
 
-//   console.log(ht,mt,st)
+//   document.writeln(ht,mt,st)
 
-//   setInterval(time,10000)
+//   setInterval(time,1000)
 // }
 
 
@@ -62,3 +62,45 @@ const employes = [
 
 // smallArray.some()
 
+
+
+
+
+
+
+// ==============================================10/12/22======================================
+
+
+// ==================================for reverse() method===============================
+
+// const popArray = [45,13,56,14,58,]
+// const newPop = popArray.reverse();
+// console.log(newPop);
+
+// ==================================for Split() method===============================
+
+// const everyArray = "my name is sandesh sarade"
+// const result = everyArray.split(' ') 
+//  const newresult = result.lastIndexOf('sandesh')
+// console.log(newresult);
+// ==================================for join() method===============================
+
+// const muJoin = [45,13,56,14,58,64,23,14,02,42];
+// const result = muJoin.join('&');
+// console.log(result);
+// ==================================for multidiamensional() method===============================
+// const software = [['sandesh','27','old'],
+//                   ['piyush','23','old'],
+//                   ['naina','26','old']
+//                 ]
+// console.log(software[2][0]);
+// ==================================for include() method===============================
+// const muJoin = [45,13,56,14,58,64,23,14,02,42];
+// const result = muJoin.includes(4);
+// console.log(result);
+// op true or false
+// ==================================for unshift() method===============================
+// const everyArray = ["my", "name", "is", "sandesh" ,"sarade"]
+//  everyArray.shift("21")
+// console.log(everyArray);
+// ==================================method===============================
