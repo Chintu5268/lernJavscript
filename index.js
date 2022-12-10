@@ -103,4 +103,4 @@
 // const everyArray = ["my", "name", "is", "sandesh" ,"sarade"]
 //  everyArray.shift("21")
 // console.log(everyArray);
-// ==================================method===============================
+// 
