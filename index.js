@@ -81,8 +81,8 @@
 
 // const everyArray = "my name is sandesh sarade"
 // const result = everyArray.split(' ') 
-//  const newresult = result.lastIndexOf('sandesh')
-// console.log(newresult);
+// //  const newresult = result.lastIndexOf('sandesh')
+// console.log(result);
 // ==================================for join() method===============================
 
 // const muJoin = [45,13,56,14,58,64,23,14,02,42];
@@ -104,3 +104,6 @@
 //  everyArray.shift("21")
 // console.log(everyArray);
 // 
+
+// =================Higher Order Array Methods===============================================
+// forEach methods 
